@@ -20,7 +20,7 @@ body {
     color: #fff;
   }
   .top{
-    background-image: url("/PJ/img/bck.jpg");
+    background-image: url("/img/bck.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -95,7 +95,7 @@ img{
 .sec3{
     min-height:100vh ;
     padding: 5rem;
-    background-image: url("/PJ/img/c309cf52-ed0e-4f08-ba8e-52f20453100d_Screenshot+2023-07-20+at+12.24.37.jpeg");
+    background-image: url("/img/c309cf52-ed0e-4f08-ba8e-52f20453100d_Screenshot+2023-07-20+at+12.24.37.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -175,7 +175,7 @@ img{
 .sec3-2{
     min-height:170vh ;
     padding: 5rem;
-    background-image: url("/PJ/new-img/pexels-marcus-silva-18651086.jpg");
+    background-image: url("/new-img/pexels-marcus-silva-18651086.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -184,15 +184,15 @@ img{
 @keyframes change{
     0%
     {
-        background-image: url(/PJ/new-img/pexels-marcus-silva-18651086.jpg);
+        background-image: url(/new-img/pexels-marcus-silva-18651086.jpg);
     }
     50%
     {
-        background-image: url(/PJ/new-img/pexels-marcus-silva-18651085.jpg);
+        background-image: url(/new-img/pexels-marcus-silva-18651085.jpg);
     }
     100%
     {
-        background-image: url(/PJ/new-img/pexels-marcus-silva-18339348.jpg);
+        background-image: url(/new-img/pexels-marcus-silva-18339348.jpg);
     }
 
 }
