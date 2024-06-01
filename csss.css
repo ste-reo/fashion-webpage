@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+
+}
+html{
+    font-size: 62.5;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+  }
+  .top{
+    background-image: url("/PJ/img/bck.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:100vh ;
+    padding: 2rem 9% 2rem;
+
+  }
+  .headr{
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 100;
+  }
+ .nav{
+    background-color: transparent;
+    width: auto;
+    height: 4vh;
+    top: 10px;
+ } 
+.nav a{
+    font-size: 1rem;
+    margin-left: 4rem;
+    color: white;
+    transition: 1s;
+}
+.logo{
+    width: 15vh;
+}
+.bodys{
+    padding: 20vh;
+    font-size: 40px;
+    width: 70%;
+    margin-left: 70vh;
+    text-align: right;
+}
+.bodyo{
+    padding-bottom: 3vh;
+    font-size: 6vh;
+}
+.body2{
+    font-size: 2.5vh;
+    text-align: justify;
+} 
+.sec2{
+    min-height:100vh ;
+    padding: 5rem;
+
+}
+.sec2{
+    justify-content: center;
+    background-color: #000205;
+    
+    
+}
+img{
+    width: 30vh;
+    margin: 1rem;
+}
+.imz{
+    display: flex;
+    justify-content: center;
+}
+.sec2, p{
+    font-size: 3vh;
+    text-align: center;
+}
+.sec3{
+    min-height:100vh ;
+    padding: 5rem;
+    background-image: url("/PJ/img/c309cf52-ed0e-4f08-ba8e-52f20453100d_Screenshot+2023-07-20+at+12.24.37.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sec3 img{
+    width: 30vh;
+}
+/* .sec4{
+    min-height:100vh ;
+    padding: 1rem;
+    background-color: black;
+} */
+.secc{
+    position: relative;
+    background: #000000;
+    display: flex;
+
+}
+.secc .pixz{
+    position: sticky;
+    top: 0;
+    min-width: 40%;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+.secc .pixz img{
+    min-width: 80%;
+    margin: 10vh;
+
+}
+.content{
+    margin: 10%;
+}
+
+.content img{
+    width: 20%;
+    height: 0vh;
+}
+
+/* heighlight*/
+.top2{
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:100vh ;
+    padding: 2rem 9% 2rem;
+
+  }
+  .bgc{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+@media (min-aspect-ratio: 16/9){
+    .bgc{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media (max-aspect-ratio: 16/9){
+    .bgc{
+        width: auto;
+        height: 100%;
+    }
+
+}
+.imz2{
+    display: flex;
+    justify-content: center;
+}
+.imz2 img{
+    width: 500px;
+}
+.sec3-2{
+    min-height:170vh ;
+    padding: 5rem;
+    background-image: url("/PJ/new-img/pexels-marcus-silva-18651086.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: change 20s infinite ease alternate;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(/PJ/new-img/pexels-marcus-silva-18651086.jpg);
+    }
+    50%
+    {
+        background-image: url(/PJ/new-img/pexels-marcus-silva-18651085.jpg);
+    }
+    100%
+    {
+        background-image: url(/PJ/new-img/pexels-marcus-silva-18339348.jpg);
+    }
+
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    height: 15vh;
+}
+.ttt{
+    padding: 1%;
+}
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.log{
+    overflow: hidden;
+    padding: 60px 0 0 0;
+    background-color: white;
+    white-space: nowrap;
+}
+.log:hover .log-slid{
+    animation-play-state: paused;
+}
+.log-slid{
+    display: inline-block;
+    align-items: top;
+    animation: 20s slide infinite linear;
+    
+}
+.log-slid img{
+    height: 250px;
+    margin: 0 42px;
+
+}
+.log-imgs{
+    position: relative;
+    bottom: 25px;
+}
