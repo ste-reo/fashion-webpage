@@ -20,7 +20,7 @@ body {
     color: #fff;
   }
   .top{
-    background-image: url("/img/bck.jpg");
+    background-image: url("img/bck.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -175,7 +175,7 @@ img{
 .sec3-2{
     min-height:170vh ;
     padding: 5rem;
-    background-image: url("new-img/pexels-marcus-silva-18651086.jpg");
+    background-image: url("img/pexels-marcus-silva-18651086.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -184,15 +184,15 @@ img{
 @keyframes change{
     0%
     {
-        background-image: url(new-img/pexels-marcus-silva-18651086.jpg);
+        background-image: url(img/pexels-marcus-silva-18651086.jpg);
     }
     50%
     {
-        background-image: url(new-img/pexels-marcus-silva-18651085.jpg);
+        background-image: url(img/pexels-marcus-silva-18651085.jpg);
     }
     100%
     {
-        background-image: url(new-img/pexels-marcus-silva-18339348.jpg);
+        background-image: url(img/pexels-marcus-silva-18339348.jpg);
     }
 
 }
